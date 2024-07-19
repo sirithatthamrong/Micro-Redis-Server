@@ -10,9 +10,9 @@ This project was completed as a part of the ICCS492: The Guts of Modern System c
 
 ## API Specifications
 Referring to the official Redis command specification (https://redis.io/docs/latest/commands/) for the description of each command and its expected behaviors/performance guarantees. Properly handle errors that may arise. This project will only support the following commands:
-- **SELECT** - As described in the real spec. However, our service will only allow `SELECT` to be called at the start of the session (when a client first connects).
+- **SELECT** - As described in the real spec. However, this project will only allow `SELECT` to be called at the start of the session (when a client first connects).
 - **GET** - As described in the real spec.
-- **SET** - As described in the real spec. However, we won’t support any of the options, just the barebones `SET key value` command.
+- **SET** - As described in the real spec. However, this project won’t support any of the options, just the barebones `SET key value` command.
 - **PING** - As described in the real spec. This command will be excluded from the linearizability requirement, i.e., won’t be counted in the history.
 - **EXISTS** - As described in the real spec.
 - **RPUSH, LPUSH** - As described in the real spec.
