@@ -1,5 +1,5 @@
 # Micro-Redis-Server
-This project was completed as a part of the ICCS492: The Guts of Modern System course.
+This project was completed as a part of the ICCS492: The Guts of Modern System course by Kanladaporn Sirithatthamrong.
 
 ## Core Design Requirements
 - **Single-machine service.** Make the assumption that the underlying hardware won’t crash and the underlying software stack (e.g., OS, Filesystem, etc.) isn’t going wrong, so the only source of issues (for now) will be our own code.
